@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B31545452D1F05C900E86DBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31545442D1F05C900E86DBC /* AppDelegate.swift */; };
+		B31545472D1F05C900E86DBC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31545462D1F05C900E86DBC /* SceneDelegate.swift */; };
+		B31545492D1F05C900E86DBC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31545482D1F05C900E86DBC /* ViewController.swift */; };
+		B315454C2D1F05C900E86DBC /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B315454B2D1F05C900E86DBC /* Base */; };
+		B315454E2D1F05CC00E86DBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B315454D2D1F05CC00E86DBC /* Assets.xcassets */; };
+		B31545512D1F05CC00E86DBC /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B31545502D1F05CC00E86DBC /* Base */; };
+		B315455C2D1F05CC00E86DBC /* Change_the_Textfield_HeightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B315455B2D1F05CC00E86DBC /* Change_the_Textfield_HeightTests.swift */; };
+		B31545662D1F05CC00E86DBC /* Change_the_Textfield_HeightUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31545652D1F05CC00E86DBC /* Change_the_Textfield_HeightUITests.swift */; };
+		B31545682D1F05CC00E86DBC /* Change_the_Textfield_HeightUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31545672D1F05CC00E86DBC /* Change_the_Textfield_HeightUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B31545582D1F05CC00E86DBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B31545392D1F05C900E86DBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B31545402D1F05C900E86DBC;
+			remoteInfo = "Change the Textfield Height";
+		};
+		B31545622D1F05CC00E86DBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B31545392D1F05C900E86DBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B31545402D1F05C900E86DBC;
+			remoteInfo = "Change the Textfield Height";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B31545412D1F05C900E86DBC /* Change the Textfield Height.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Change the Textfield Height.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B31545442D1F05C900E86DBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B31545462D1F05C900E86DBC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B31545482D1F05C900E86DBC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B315454B2D1F05C900E86DBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B315454D2D1F05CC00E86DBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B31545502D1F05CC00E86DBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B31545522D1F05CC00E86DBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B31545572D1F05CC00E86DBC /* Change the Textfield HeightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Change the Textfield HeightTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B315455B2D1F05CC00E86DBC /* Change_the_Textfield_HeightTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Change_the_Textfield_HeightTests.swift; sourceTree = "<group>"; };
+		B31545612D1F05CC00E86DBC /* Change the Textfield HeightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Change the Textfield HeightUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B31545652D1F05CC00E86DBC /* Change_the_Textfield_HeightUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Change_the_Textfield_HeightUITests.swift; sourceTree = "<group>"; };
+		B31545672D1F05CC00E86DBC /* Change_the_Textfield_HeightUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Change_the_Textfield_HeightUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B315453E2D1F05C900E86DBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B31545542D1F05CC00E86DBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B315455E2D1F05CC00E86DBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B31545382D1F05C900E86DBC = {
+			isa = PBXGroup;
+			children = (
+				B31545432D1F05C900E86DBC /* Change the Textfield Height */,
+				B315455A2D1F05CC00E86DBC /* Change the Textfield HeightTests */,
+				B31545642D1F05CC00E86DBC /* Change the Textfield HeightUITests */,
+				B31545422D1F05C900E86DBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B31545422D1F05C900E86DBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B31545412D1F05C900E86DBC /* Change the Textfield Height.app */,
+				B31545572D1F05CC00E86DBC /* Change the Textfield HeightTests.xctest */,
+				B31545612D1F05CC00E86DBC /* Change the Textfield HeightUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B31545432D1F05C900E86DBC /* Change the Textfield Height */ = {
+			isa = PBXGroup;
+			children = (
+				B31545442D1F05C900E86DBC /* AppDelegate.swift */,
+				B31545462D1F05C900E86DBC /* SceneDelegate.swift */,
+				B31545482D1F05C900E86DBC /* ViewController.swift */,
+				B315454A2D1F05C900E86DBC /* Main.storyboard */,
+				B315454D2D1F05CC00E86DBC /* Assets.xcassets */,
+				B315454F2D1F05CC00E86DBC /* LaunchScreen.storyboard */,
+				B31545522D1F05CC00E86DBC /* Info.plist */,
+			);
+			path = "Change the Textfield Height";
+			sourceTree = "<group>";
+		};
+		B315455A2D1F05CC00E86DBC /* Change the Textfield HeightTests */ = {
+			isa = PBXGroup;
+			children = (
+				B315455B2D1F05CC00E86DBC /* Change_the_Textfield_HeightTests.swift */,
+			);
+			path = "Change the Textfield HeightTests";
+			sourceTree = "<group>";
+		};
+		B31545642D1F05CC00E86DBC /* Change the Textfield HeightUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B31545652D1F05CC00E86DBC /* Change_the_Textfield_HeightUITests.swift */,
+				B31545672D1F05CC00E86DBC /* Change_the_Textfield_HeightUITestsLaunchTests.swift */,
+			);
+			path = "Change the Textfield HeightUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B31545402D1F05C900E86DBC /* Change the Textfield Height */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B315456B2D1F05CC00E86DBC /* Build configuration list for PBXNativeTarget "Change the Textfield Height" */;
+			buildPhases = (
+				B315453D2D1F05C900E86DBC /* Sources */,
+				B315453E2D1F05C900E86DBC /* Frameworks */,
+				B315453F2D1F05C900E86DBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Change the Textfield Height";
+			productName = "Change the Textfield Height";
+			productReference = B31545412D1F05C900E86DBC /* Change the Textfield Height.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B31545562D1F05CC00E86DBC /* Change the Textfield HeightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B315456E2D1F05CC00E86DBC /* Build configuration list for PBXNativeTarget "Change the Textfield HeightTests" */;
+			buildPhases = (
+				B31545532D1F05CC00E86DBC /* Sources */,
+				B31545542D1F05CC00E86DBC /* Frameworks */,
+				B31545552D1F05CC00E86DBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B31545592D1F05CC00E86DBC /* PBXTargetDependency */,
+			);
+			name = "Change the Textfield HeightTests";
+			productName = "Change the Textfield HeightTests";
+			productReference = B31545572D1F05CC00E86DBC /* Change the Textfield HeightTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B31545602D1F05CC00E86DBC /* Change the Textfield HeightUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B31545712D1F05CC00E86DBC /* Build configuration list for PBXNativeTarget "Change the Textfield HeightUITests" */;
+			buildPhases = (
+				B315455D2D1F05CC00E86DBC /* Sources */,
+				B315455E2D1F05CC00E86DBC /* Frameworks */,
+				B315455F2D1F05CC00E86DBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B31545632D1F05CC00E86DBC /* PBXTargetDependency */,
+			);
+			name = "Change the Textfield HeightUITests";
+			productName = "Change the Textfield HeightUITests";
+			productReference = B31545612D1F05CC00E86DBC /* Change the Textfield HeightUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B31545392D1F05C900E86DBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					B31545402D1F05C900E86DBC = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					B31545562D1F05CC00E86DBC = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = B31545402D1F05C900E86DBC;
+					};
+					B31545602D1F05CC00E86DBC = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = B31545402D1F05C900E86DBC;
+					};
+				};
+			};
+			buildConfigurationList = B315453C2D1F05C900E86DBC /* Build configuration list for PBXProject "Change the Textfield Height" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B31545382D1F05C900E86DBC;
+			productRefGroup = B31545422D1F05C900E86DBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B31545402D1F05C900E86DBC /* Change the Textfield Height */,
+				B31545562D1F05CC00E86DBC /* Change the Textfield HeightTests */,
+				B31545602D1F05CC00E86DBC /* Change the Textfield HeightUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B315453F2D1F05C900E86DBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B315454E2D1F05CC00E86DBC /* Assets.xcassets in Resources */,
+				B31545512D1F05CC00E86DBC /* Base in Resources */,
+				B315454C2D1F05C900E86DBC /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B31545552D1F05CC00E86DBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B315455F2D1F05CC00E86DBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B315453D2D1F05C900E86DBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B31545492D1F05C900E86DBC /* ViewController.swift in Sources */,
+				B31545452D1F05C900E86DBC /* AppDelegate.swift in Sources */,
+				B31545472D1F05C900E86DBC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B31545532D1F05CC00E86DBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B315455C2D1F05CC00E86DBC /* Change_the_Textfield_HeightTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B315455D2D1F05CC00E86DBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B31545662D1F05CC00E86DBC /* Change_the_Textfield_HeightUITests.swift in Sources */,
+				B31545682D1F05CC00E86DBC /* Change_the_Textfield_HeightUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B31545592D1F05CC00E86DBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B31545402D1F05C900E86DBC /* Change the Textfield Height */;
+			targetProxy = B31545582D1F05CC00E86DBC /* PBXContainerItemProxy */;
+		};
+		B31545632D1F05CC00E86DBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B31545402D1F05C900E86DBC /* Change the Textfield Height */;
+			targetProxy = B31545622D1F05CC00E86DBC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B315454A2D1F05C900E86DBC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B315454B2D1F05C900E86DBC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B315454F2D1F05CC00E86DBC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B31545502D1F05CC00E86DBC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B31545692D1F05CC00E86DBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B315456A2D1F05CC00E86DBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B315456C2D1F05CC00E86DBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Change the Textfield Height/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alimullah.Change-the-Textfield-Height";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B315456D2D1F05CC00E86DBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Change the Textfield Height/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alimullah.Change-the-Textfield-Height";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B315456F2D1F05CC00E86DBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alimullah.Change-the-Textfield-HeightTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Change the Textfield Height.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Change the Textfield Height";
+			};
+			name = Debug;
+		};
+		B31545702D1F05CC00E86DBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alimullah.Change-the-Textfield-HeightTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Change the Textfield Height.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Change the Textfield Height";
+			};
+			name = Release;
+		};
+		B31545722D1F05CC00E86DBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alimullah.Change-the-Textfield-HeightUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Change the Textfield Height";
+			};
+			name = Debug;
+		};
+		B31545732D1F05CC00E86DBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alimullah.Change-the-Textfield-HeightUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Change the Textfield Height";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B315453C2D1F05C900E86DBC /* Build configuration list for PBXProject "Change the Textfield Height" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B31545692D1F05CC00E86DBC /* Debug */,
+				B315456A2D1F05CC00E86DBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B315456B2D1F05CC00E86DBC /* Build configuration list for PBXNativeTarget "Change the Textfield Height" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B315456C2D1F05CC00E86DBC /* Debug */,
+				B315456D2D1F05CC00E86DBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B315456E2D1F05CC00E86DBC /* Build configuration list for PBXNativeTarget "Change the Textfield HeightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B315456F2D1F05CC00E86DBC /* Debug */,
+				B31545702D1F05CC00E86DBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B31545712D1F05CC00E86DBC /* Build configuration list for PBXNativeTarget "Change the Textfield HeightUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B31545722D1F05CC00E86DBC /* Debug */,
+				B31545732D1F05CC00E86DBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B31545392D1F05C900E86DBC /* Project object */;
+}
