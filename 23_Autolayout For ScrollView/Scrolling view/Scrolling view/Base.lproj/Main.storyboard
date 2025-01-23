@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Scrolling_view" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oF7-Ez-4Cv">
+                                <rect key="frame" x="0.0" y="59" width="393" height="793"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="0lV-1M-Fqk">
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="1624"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Scroll Down" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Ur-MX-hZq">
+                                                <rect key="frame" x="0.0" y="0.0" width="393" height="24"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                                <color key="textColor" red="0.95686274770000002" green="0.95686274770000002" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="argentina" translatesAutoresizingMaskIntoConstraints="NO" id="akb-U0-ACw">
+                                                <rect key="frame" x="0.0" y="24" width="393" height="400"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="400" id="CSA-Jf-A5e"/>
+                                                </constraints>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="india" translatesAutoresizingMaskIntoConstraints="NO" id="BE6-84-YIU">
+                                                <rect key="frame" x="0.0" y="424" width="393" height="400"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="400" id="l4r-5L-BFc"/>
+                                                </constraints>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bangladesh" translatesAutoresizingMaskIntoConstraints="NO" id="w3c-ua-lTo">
+                                                <rect key="frame" x="0.0" y="824" width="393" height="400"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="400" id="wWO-us-6nT"/>
+                                                </constraints>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="argentina" translatesAutoresizingMaskIntoConstraints="NO" id="jfZ-Km-Id6">
+                                                <rect key="frame" x="0.0" y="1224" width="393" height="400"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="400" id="zZp-Fv-pdX"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="0lV-1M-Fqk" firstAttribute="width" secondItem="oF7-Ez-4Cv" secondAttribute="width" id="CTK-ik-SIS"/>
+                                    <constraint firstAttribute="trailing" secondItem="0lV-1M-Fqk" secondAttribute="trailing" id="by9-q7-6j2"/>
+                                    <constraint firstItem="0lV-1M-Fqk" firstAttribute="top" secondItem="oF7-Ez-4Cv" secondAttribute="top" id="cY0-UC-WgV"/>
+                                    <constraint firstAttribute="bottom" secondItem="0lV-1M-Fqk" secondAttribute="bottom" id="kgp-uJ-aXi"/>
+                                    <constraint firstItem="0lV-1M-Fqk" firstAttribute="leading" secondItem="oF7-Ez-4Cv" secondAttribute="leading" id="od5-LD-qsc"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="a8m-Mb-1SY"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="n52-lG-S24"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="oF7-Ez-4Cv" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="4Nb-ud-cbH"/>
+                            <constraint firstItem="oF7-Ez-4Cv" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Xiy-ie-9Xg"/>
+                            <constraint firstItem="oF7-Ez-4Cv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="fwL-DD-5YW"/>
+                            <constraint firstAttribute="bottom" secondItem="oF7-Ez-4Cv" secondAttribute="bottom" id="vjV-Y7-Asg"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="127.48091603053435" y="-27.464788732394368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="argentina" width="168" height="110"/>
+        <image name="bangladesh" width="191.33332824707031" height="116"/>
+        <image name="india" width="174" height="116"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
