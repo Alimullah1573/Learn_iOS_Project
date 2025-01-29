@@ -50,7 +50,10 @@ class ViewController: UIViewController, PHPickerViewControllerDelegate{
         
         var configuration:PHPickerConfiguration = PHPickerConfiguration()
         
-        configuration.filter = PHPickerFilter.images
+        configuration.filter = PHPickerFilter.images  // Just image
+        
+        //configuration.filter = PHPickerFilter.any(of: [.images, .videos]) // ছবি এবং ভিডিও দুটোই সিলেক্ট করা যাবে
+        
         configuration.selectionLimit = 0
         
         let picker: PHPickerViewController = PHPickerViewController(configuration: configuration)
