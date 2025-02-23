@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CollectionView" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Ofn-3q-6tK">
+                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="D3y-zn-NB3">
+                                    <size key="itemSize" width="300" height="200"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="do3-rv-0Dq" customClass="CollectionViewCell" customModule="CollectionView" customModuleProvider="target">
+                                        <rect key="frame" x="46.666666666666664" y="0.0" width="300" height="200"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                            <rect key="frame" x="0.0" y="0.0" width="300" height="200"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RoX-mC-sHP">
+                                                    <rect key="frame" x="27" y="161" width="225" height="21"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="a9x-i3-Sus"/>
+                                                        <constraint firstAttribute="height" constant="21" id="soT-Ib-45f"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="argentina" translatesAutoresizingMaskIntoConstraints="NO" id="HhP-Rq-3L6">
+                                                    <rect key="frame" x="5" y="5" width="290" height="120"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="162" id="Bf1-Kg-jA3"/>
+                                                    </constraints>
+                                                </imageView>
+                                            </subviews>
+                                        </view>
+                                        <constraints>
+                                            <constraint firstItem="HhP-Rq-3L6" firstAttribute="leading" secondItem="do3-rv-0Dq" secondAttribute="leading" constant="5" id="0BT-QN-oTJ"/>
+                                            <constraint firstItem="HhP-Rq-3L6" firstAttribute="top" secondItem="do3-rv-0Dq" secondAttribute="top" constant="5" id="26W-NW-TxG"/>
+                                            <constraint firstAttribute="trailing" secondItem="HhP-Rq-3L6" secondAttribute="trailing" constant="5" id="4LO-v4-K6w"/>
+                                            <constraint firstItem="RoX-mC-sHP" firstAttribute="top" secondItem="HhP-Rq-3L6" secondAttribute="bottom" constant="5" id="6t7-xz-5PL"/>
+                                            <constraint firstItem="RoX-mC-sHP" firstAttribute="leading" secondItem="do3-rv-0Dq" secondAttribute="leading" constant="27" id="A0h-0r-QJe"/>
+                                            <constraint firstAttribute="trailing" secondItem="HhP-Rq-3L6" secondAttribute="trailing" constant="5" id="BUC-zA-UAh"/>
+                                            <constraint firstAttribute="trailing" secondItem="HhP-Rq-3L6" secondAttribute="trailing" constant="5" id="ENu-tU-2ZI"/>
+                                            <constraint firstAttribute="trailing" secondItem="HhP-Rq-3L6" secondAttribute="trailing" constant="5" id="HSv-YW-pH2"/>
+                                            <constraint firstAttribute="bottom" secondItem="RoX-mC-sHP" secondAttribute="bottom" constant="18" id="Nnt-FN-tMe"/>
+                                            <constraint firstItem="HhP-Rq-3L6" firstAttribute="top" secondItem="do3-rv-0Dq" secondAttribute="top" constant="5" id="PGB-Zm-Nbd"/>
+                                            <constraint firstItem="RoX-mC-sHP" firstAttribute="leading" secondItem="do3-rv-0Dq" secondAttribute="leading" constant="27" id="QZV-tG-o2a"/>
+                                            <constraint firstItem="RoX-mC-sHP" firstAttribute="top" secondItem="HhP-Rq-3L6" secondAttribute="bottom" constant="5" id="TOZ-sW-rN2"/>
+                                            <constraint firstItem="HhP-Rq-3L6" firstAttribute="top" secondItem="do3-rv-0Dq" secondAttribute="top" constant="5" id="U4Y-nz-98n"/>
+                                            <constraint firstAttribute="trailing" secondItem="RoX-mC-sHP" secondAttribute="trailing" constant="48" id="UzK-aR-DKd"/>
+                                            <constraint firstItem="RoX-mC-sHP" firstAttribute="top" secondItem="HhP-Rq-3L6" secondAttribute="bottom" id="Xy3-i6-SWZ"/>
+                                            <constraint firstItem="HhP-Rq-3L6" firstAttribute="leading" secondItem="do3-rv-0Dq" secondAttribute="leading" constant="5" id="Yol-a5-pad"/>
+                                            <constraint firstItem="HhP-Rq-3L6" firstAttribute="top" secondItem="do3-rv-0Dq" secondAttribute="top" constant="37" id="ZGi-cA-qKa"/>
+                                            <constraint firstItem="HhP-Rq-3L6" firstAttribute="top" secondItem="do3-rv-0Dq" secondAttribute="top" constant="5" id="fKS-OO-1Qr"/>
+                                            <constraint firstItem="HhP-Rq-3L6" firstAttribute="leading" secondItem="do3-rv-0Dq" secondAttribute="leading" constant="5" id="gvp-Ot-191"/>
+                                            <constraint firstAttribute="trailing" secondItem="RoX-mC-sHP" secondAttribute="trailing" constant="48" id="hKi-zr-qQE"/>
+                                            <constraint firstItem="HhP-Rq-3L6" firstAttribute="leading" secondItem="do3-rv-0Dq" secondAttribute="leading" constant="5" id="hug-rx-DO9"/>
+                                            <constraint firstItem="RoX-mC-sHP" firstAttribute="top" secondItem="HhP-Rq-3L6" secondAttribute="bottom" constant="33" id="mu8-Ix-ReS"/>
+                                            <constraint firstItem="RoX-mC-sHP" firstAttribute="top" secondItem="HhP-Rq-3L6" secondAttribute="bottom" constant="36" id="ojV-sS-Lwg"/>
+                                            <constraint firstAttribute="trailing" secondItem="HhP-Rq-3L6" secondAttribute="trailing" constant="5" id="qV0-f2-zR5"/>
+                                            <constraint firstAttribute="bottom" secondItem="RoX-mC-sHP" secondAttribute="bottom" constant="18" id="qwM-i2-K9l"/>
+                                            <constraint firstItem="HhP-Rq-3L6" firstAttribute="leading" secondItem="do3-rv-0Dq" secondAttribute="leading" constant="5" id="uVM-U7-lG9"/>
+                                            <constraint firstAttribute="bottom" secondItem="HhP-Rq-3L6" secondAttribute="bottom" constant="47" id="zlb-eA-1Gt"/>
+                                        </constraints>
+                                        <size key="customSize" width="300" height="200"/>
+                                        <connections>
+                                            <outlet property="Titel_" destination="RoX-mC-sHP" id="dHZ-dH-H8f"/>
+                                            <outlet property="imageView" destination="HhP-Rq-3L6" id="eHZ-1r-0vY"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="Ij8-Wt-qX7"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="cAN-YW-hoC"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Ofn-3q-6tK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="4G0-Bg-rqm"/>
+                            <constraint firstItem="Ofn-3q-6tK" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="9Vf-tg-Qs3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Ofn-3q-6tK" secondAttribute="bottom" id="jl3-bn-W80"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ofn-3q-6tK" secondAttribute="trailing" id="mht-vj-ZQo"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="collectionView" destination="Ofn-3q-6tK" id="NuL-dS-rBy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="130.53435114503816" y="-27.464788732394368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="argentina" width="504" height="330"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
