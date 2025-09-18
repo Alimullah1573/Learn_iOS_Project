@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="FolderCell" customModule="DocomentDirectoryTest" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="135" height="104"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="135" height="104"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="fSr-5O-Vwg">
+                        <rect key="frame" x="0.0" y="0.0" width="135" height="104"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HHk-KS-hRF">
+                        <rect key="frame" x="0.0" y="48" width="135" height="56"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="56" id="vUi-RK-H71"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cWW-Px-AHa">
+                        <rect key="frame" x="113.33333333333333" y="0.0" width="21.666666666666671" height="25"/>
+                        <color key="tintColor" red="0.55633944270000002" green="0.1615233123" blue="0.1450603604" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                        <state key="normal" image="delete.forward" catalog="system"/>
+                        <connections>
+                            <action selector="deleteTapped:" destination="gTV-IL-0wX" eventType="touchUpInside" id="PWB-zV-Jnm"/>
+                        </connections>
+                    </button>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="fSr-5O-Vwg" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="1pv-Zt-khw"/>
+                <constraint firstItem="HHk-KS-hRF" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="2x5-zA-hIT"/>
+                <constraint firstItem="cWW-Px-AHa" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="GTK-my-105"/>
+                <constraint firstItem="fSr-5O-Vwg" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="NtB-G2-M9G"/>
+                <constraint firstAttribute="bottom" secondItem="HHk-KS-hRF" secondAttribute="bottom" id="X8W-7i-VDH"/>
+                <constraint firstItem="HHk-KS-hRF" firstAttribute="top" secondItem="cWW-Px-AHa" secondAttribute="bottom" constant="23" id="ZcP-nv-sXD"/>
+                <constraint firstAttribute="trailing" secondItem="HHk-KS-hRF" secondAttribute="trailing" id="jFd-1x-rTj"/>
+                <constraint firstAttribute="trailing" secondItem="fSr-5O-Vwg" secondAttribute="trailing" id="w4Y-T4-LK6"/>
+                <constraint firstAttribute="trailing" secondItem="cWW-Px-AHa" secondAttribute="trailing" id="yQx-Xa-pMG"/>
+                <constraint firstAttribute="bottom" secondItem="fSr-5O-Vwg" secondAttribute="bottom" id="zN8-eq-psR"/>
+            </constraints>
+            <size key="customSize" width="135" height="104"/>
+            <connections>
+                <outlet property="deleteButton" destination="cWW-Px-AHa" id="zdL-bW-fFE"/>
+                <outlet property="lblFolderName" destination="HHk-KS-hRF" id="C6L-6u-0yc"/>
+            </connections>
+            <point key="canvasLocation" x="194.6564885496183" y="71.83098591549296"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Image" width="128" height="128"/>
+        <image name="delete.forward" catalog="system" width="128" height="102"/>
+    </resources>
+</document>
