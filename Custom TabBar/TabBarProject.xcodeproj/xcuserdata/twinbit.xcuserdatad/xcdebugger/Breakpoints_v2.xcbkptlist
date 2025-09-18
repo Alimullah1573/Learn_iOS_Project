@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "A963CB7D-E19C-41AE-B982-B573F9FADC62"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DFAD51C7-C0C8-47EF-B030-EB269DCB3978"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TabBarProject/View/SettingVC/SettingVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "SettingVC"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "DFAD51C7-C0C8-47EF-B030-EB269DCB3978 - cc2d7c42e1d75d04"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TabBarProject.SettingVC.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; TabBarProject.SettingVC"
+                  moduleName = "TabBarProject.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/twinbit/Documents/iOS/TabBarProject/TabBarProject/View/SettingVC/SettingVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0">
+               </Location>
+               <Location
+                  uuid = "DFAD51C7-C0C8-47EF-B030-EB269DCB3978 - 9e26128ea45959f6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TabBarProject.SettingVC.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; TabBarProject.SettingVC"
+                  moduleName = "TabBarProject.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/twinbit/Documents/iOS/TabBarProject/TabBarProject/View/SettingVC/SettingVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0">
+               </Location>
+               <Location
+                  uuid = "DFAD51C7-C0C8-47EF-B030-EB269DCB3978 - 72a0d0b04e9a4cc3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TabBarProject.SettingVC.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;TabBarProject.SettingVC&gt;"
+                  moduleName = "TabBarProject.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/twinbit/Documents/iOS/TabBarProject/TabBarProject/View/SettingVC/SettingVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0">
+               </Location>
+               <Location
+                  uuid = "DFAD51C7-C0C8-47EF-B030-EB269DCB3978 - be755edc5d2848c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TabBarProject.SettingVC.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;TabBarProject.SettingVC&gt;"
+                  moduleName = "TabBarProject.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/twinbit/Documents/iOS/TabBarProject/TabBarProject/View/SettingVC/SettingVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0">
+               </Location>
+               <Location
+                  uuid = "DFAD51C7-C0C8-47EF-B030-EB269DCB3978 - 6a21be58949fcba0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TabBarProject.SettingVC.__deallocating_deinit"
+                  moduleName = "TabBarProject.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/twinbit/Documents/iOS/TabBarProject/TabBarProject/View/SettingVC/SettingVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
